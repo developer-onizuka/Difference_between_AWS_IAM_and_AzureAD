@@ -73,7 +73,7 @@ $ curl http://169.254.169.254/latest/iam/security-credentials/<Your own IAM role
 }
 ```
 
-# 1-6. Switch role (Switching the User's role through IAM role in a different Account)
+# 1-6. Switch role (Obtain a new role from the IAM role in a different Account)
 In the case of AWS, it is common to create an AWS account that stores only IAM users separately from the AWS account that holds resources, and assign permissions from the AWS account that holds resources. See the URL below, so that you can understand how to switch the role between AWS account that stores only IAM users and IAM role in the AWS account that holds resources.
  > https://www.youtube.com/watch?v=d7R08uPS98M
  > 

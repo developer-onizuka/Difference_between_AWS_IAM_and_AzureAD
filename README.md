@@ -276,3 +276,14 @@ The most secure and convenient way to handle authentication within Azure is to u
 > https://azuread.net/archives/9397
 
 
+# 3. Summary
+
+- Switching role can be archived through IAM role in AWS while Azure can do it through PIM. <br>
+- Attaching the role on some services can be done through Service role in AWS while Azure can do it through Managed ID. <br>
+
+| | temporary access by User (Switch role) | temporary access by Service |
+| --- | --- | --- |
+| AWS | IAM role | Service role |
+| Azure | Privileged Identity Management (PIM) | Managed ID |
+
+> https://tech.kusuwada.com/entry/2020/09/13/063747

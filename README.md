@@ -286,6 +286,6 @@ These differences came from how to manage users, inside or outside of a subscrip
 | | temporary access by User (Switch role) | temporary access by Service |
 | --- | --- | --- |
 | AWS | Assume IAM role in a different account | Attach Service role to services |
-| Azure | Privileged Identity Management (PIM) | - Managed ID<br> -Service principal |
+| Azure | Privileged Identity Management (PIM) | - Managed ID<br> - Service principal |
 
 > https://tech.kusuwada.com/entry/2020/09/13/063747
